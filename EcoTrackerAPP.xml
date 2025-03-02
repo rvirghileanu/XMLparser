@@ -1,0 +1,24 @@
+<bias>
+  <application id="EcoTrackerApp" name="Eco Tracker" info="An application for tracking and improving ecological habits.">
+    <description>
+      This application helps users monitor their ecological footprint, set sustainability goals, and adopt eco-friendly habits.
+    </description>
+    <author>Eco Warriors Team</author>
+    <email>support@ecotrackerapp.com</email>
+    <setup>
+      <help_url>/help/eco-tracker-guide.html</help_url>
+      <param_template>/bin/eco_tracker --name="${user_name}" --goal="${eco_goal}"</param_template>
+      <param_table_template>/templates/eco_table.template</param_table_template>
+    </setup>
+    <parameters>
+      <text id="user_name" name="User's Name" info="Enter your name." tip="Enter your full name" optional="no" help="#user_name" />
+      <select id="eco_goal" name="Sustainability Goal" info="Select your primary sustainability goal." optional="no" tip="Choose your goal" help="#eco_goal">
+        <option value="1" text="Reduce Carbon Footprint" />
+        <option value="2" text="Save Water" />
+        <option value="3" text="Minimize Waste" />
+        <option value="4" text="Adopt Renewable Energy" />
+      </select>
+      <text id="eco_score" name="Initial Eco Score" info="Enter your current eco score (optional)." tip="Provide your eco score if available" optional="yes" help="#eco_score" />
+    </parameters>
+  </application>
+</bias>

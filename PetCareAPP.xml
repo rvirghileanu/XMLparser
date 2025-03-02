@@ -1,0 +1,24 @@
+<bias>
+  <application id="PetCareApp" name="Pet Care" info="An application for managing pet care.">
+    <description>
+      This application helps users manage their pets' activities, health, and feeding schedules.
+    </description>
+    <author>Pet Lovers Team</author>
+    <email>support@petloversapp.com</email>
+    <setup>
+      <help_url>/help/pet-care-guide.html</help_url>
+      <param_template>/bin/pet_care --name="${pet_name}" --type="${pet_type}"</param_template>
+      <param_table_template>/templates/pet_table.template</param_table_template>
+    </setup>
+    <parameters>
+      <text id="pet_name" name="Pet's Name" info="Enter the name of your pet." tip="Enter your pet's name" optional="no" help="#pet_name" />
+      <select id="pet_type" name="Pet Type" info="Select the type of your pet." optional="yes" tip="Choose your pet type" help="#pet_type">
+        <option value="1" text="Dog" />
+        <option value="2" text="Cat" />
+        <option value="3" text="Bird" />
+        <option value="4" text="Other" />
+      </select>
+      <text id="pet_age" name="Pet's Age" info="Enter the age of your pet in years." tip="How old is your pet?" optional="yes" help="#pet_age" />
+    </parameters>
+  </application>
+</bias>

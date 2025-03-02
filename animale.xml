@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<animal>
+	<nume>Azorel</nume>
+	<specie>caine</specie>
+	<rasa>bison</rasa>
+	<varsta>4</varsta>
+</animal>
+
+<animal>
+	<nume>Azura</nume>
+	<specie>pisica</specie>
+	<rasa>siameza</rasa>
+	<varsta>3</varsta>
+</animal>
+
+<animal>
+	<nume>Coco</nume>
+	<specie>papagal</specie>
+	<rasa>perus</rasa>
+	<varsta>2</varsta>
+</animal>
+
+<animal>
+	<nume>Zuzu</nume>
+	<specie>hamster</specie>
+	<varsta>1</varsta>
+</animal>
+
+<animal>
+	<nume>Rex</nume>
+	<specie>caine</specie>
+	<rasa>ciobanesc</rasa>
+	<varsta>7</varsta>
+</animal>
+
+<animal>
+	<nume>Dolfy</nume>
+	<specie>caine</specie>
+	<rasa>pechinez</rasa>
+	<varsta>15</varsta>
+</animal>
+<animal>
+	<nume>Suki</nume>
+	<specie>caine</specie>
+	<rasa>copoi</rasa>
+	<varsta>2</varsta>
+</animal>
+
+<animal>
+	<nume>Ducesa</nume>
+	<specie>pisica</specie>
+	<varsta>4</varsta>
+</animal>
+
+<animal>
+	<nume>Kyra</nume>
+	<specie>pisica</specie>
+	<varsta>3</varsta>
+</animal>
+
+<animal>
+	<nume>Nyx</nume>
+	<specie>caine</specie>
+	<varsta>11</varsta>
+</animal>
+</root>

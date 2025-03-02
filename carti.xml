@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<carte>
+   <titlu>Romanul unui adolescent miop</titlu>
+   <autor>Mircea Eliade</autor>
+   <pret moneda=”RON”>25.50</pret>
+</carte>
+
+<carte>
+   <titlu>Book Lovers</titlu>
+   <autor>Emily Henry</autor>
+   <pret moneda=”EUR”>15.30</pret>
+</carte>
+
+<carte>
+   <titlu>Pacienta Tacuta</titlu>
+   <autor>Alex Michaelides</autor>
+   <pret moneda=”RON”>40.25</pret>
+</carte>
+
+<carte>
+   <titlu>To kill a Mocking Bird</titlu>
+   <autor>Harper Lee</autor>
+   <pret moneda=”EUR”>10.15</pret>
+</carte>
+
+<carte>
+   <titlu>1984</titlu>
+   <autor>George Orwell</autor>
+   <pret moneda=”RON”>60.30</pret>
+</carte>
+
+<carte>
+   <titlu>Notes from Underground</titlu>
+   <autor>Fyodor Dostoevsky</autor>
+   <pret moneda=”EUR”>15.10</pret>
+</carte>
+
+<carte>
+   <titlu>Metamorfoza</titlu>
+   <autor>Franz Kafka</autor>
+   <pret moneda=”RON”>35.33</pret>
+</carte>
+
+<carte>
+   <titlu>Pride and Prejudice</titlu>
+   <autor>Jane Austen</autor>
+   <pret moneda=”RON”>39.99</pret>
+</carte>
+</root>
+
